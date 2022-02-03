@@ -1,0 +1,9 @@
+D:\Projects\pe-airbrakes\PE_Air_Brakes\bin\Debug\netcoreapp3.1\PE_Air_Brakes.deps.json
+D:\Projects\pe-airbrakes\PE_Air_Brakes\bin\Debug\netcoreapp3.1\PE_Air_Brakes.dll
+D:\Projects\pe-airbrakes\PE_Air_Brakes\bin\Debug\netcoreapp3.1\PE_Air_Brakes.pdb
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.csproj.AssemblyReference.cache
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.AssemblyInfoInputs.cache
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.AssemblyInfo.cs
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.csproj.CoreCompileInputs.cache
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.dll
+D:\Projects\pe-airbrakes\PE_Air_Brakes\obj\Debug\netcoreapp3.1\PE_Air_Brakes.pdb
