@@ -3,19 +3,20 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
+
 import { ComponentsComponent } from './components/components.component';
-import { ProfileComponent } from './examples/profile/profile.component';
-import { SignupComponent } from './examples/signup/signup.component';
-import { LandingComponent } from './examples/landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutUsComponent } from './pages/aboutUs/aboutUs.component';
+import { LocateContactUsComponent } from './pages/locateContactUs/locateContactUs.component';
+import { GetInTouchComponent } from './pages/getInTouch/getInTouch.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home',             component: ComponentsComponent },
-    { path: 'user-profile',     component: ProfileComponent },
-    { path: 'signup',           component: SignupComponent },
-    { path: 'landing',          component: LandingComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent }
+    { path: 'home',             component: HomeComponent },
+    { path: 'aboutUs',           component: AboutUsComponent },
+    { path: 'locateContactUs',          component: LocateContactUsComponent },
+    { path: 'getInTouch',      component: GetInTouchComponent }
 ];
 
 @NgModule({

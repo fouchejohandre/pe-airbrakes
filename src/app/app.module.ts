@@ -10,14 +10,21 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutUsComponent } from './pages/aboutUs/aboutUs.component';
+import { LocateContactUsComponent } from './pages/locateContactUs/locateContactUs.component';
+import { GetInTouchComponent } from './pages/getInTouch/getInTouch.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    AboutUsComponent,
+    LocateContactUsComponent,
+    GetInTouchComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +32,6 @@ import { ExamplesModule } from './examples/examples.module';
     FormsModule,
     RouterModule,
     ComponentsModule,
-    ExamplesModule,
     AppRoutingModule,
   ],
   providers: [],
