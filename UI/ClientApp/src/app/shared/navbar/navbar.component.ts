@@ -1,6 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-navbar',
@@ -8,7 +7,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
     styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-    faCoffee = faCoffee;
     private toggleButton: any;
     private sidebarVisible: boolean;
 
