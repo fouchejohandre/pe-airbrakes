@@ -1296,3 +1296,8 @@ pre.prettyprint {
     position: relative;
     z-index: 2;
 }
+
+.custom-button{
+    background-color: darkred;
+    border-color: darkred;
+}
