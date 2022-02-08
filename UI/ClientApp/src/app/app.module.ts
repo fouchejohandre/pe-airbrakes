@@ -15,6 +15,7 @@ import { AboutUsComponent } from './pages/aboutUs/aboutUs.component';
 import { LocateContactUsComponent } from './pages/locateContactUs/locateContactUs.component';
 import { GetInTouchComponent } from './pages/getInTouch/getInTouch.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     AboutUsComponent,
     LocateContactUsComponent,
-    GetInTouchComponent
+    GetInTouchComponent    
   ],
   imports: [
     BrowserModule,
@@ -35,6 +36,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ComponentsModule,
     AppRoutingModule,
     FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
