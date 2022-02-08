@@ -76,7 +76,27 @@
       <div class="row">
         <div class="col-md-8 mr-auto ml-auto">
           <h2 class="title">Our Products</h2>
-          <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+          <div class="card">
+            <ngb-accordion [destroyOnHide]='false' [closeOthers]="true" (panelChange)='panelShadow($event, shadow)' #shadow>
+              <ngb-panel id="panel1">
+                <ng-template ngbPanelTitle>
+                  <span>Accordion Item 1 </span>
+                </ng-template>
+                <ng-template ngbPanelContent>
+                  TEST 1
+                </ng-template>
+              </ngb-panel>
+
+              <ngb-panel id="panel2" cardClass="open">
+                <ng-template ngbPanelTitle>
+                  <span>Accordion Item 2 </span>
+                </ng-template>
+                <ng-template ngbPanelContent>
+                  TEST 2
+                </ng-template>
+              </ngb-panel>
+            </ngb-accordion>
+          </div>
           <br>
         </div>
       </div>
